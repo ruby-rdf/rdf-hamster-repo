@@ -14,7 +14,7 @@ An in-memory implementation of RDF::Repository using an efficient, immutable, an
 
     require 'rdf/hamster_repo'
     require 'rdf/nquads'
-    repo = RDF::HamsterRepo.load("https://ruby-rdf.github.com/rdf/etc/doap.nq")
+    repo = RDF::HamsterRepo.load("https://ruby-rdf.github.io/rdf/etc/doap.nq")
 
 ## Dependencies
 
@@ -55,7 +55,7 @@ This repository uses [Git Flow](https://github.com/nvie/gitflow) to mange develo
 This is free and unencumbered public domain software. For more information,
 see <https://unlicense.org/> or the accompanying {file:UNLICENSE} file.
 
-[RDF.rb]:           https://ruby-rdf.github.com/
+[RDF.rb]:           https://ruby-rdf.github.io/
 [YARD]:             https://yardoc.org/
 [YARD-GS]:          https://rubydoc.info/docs/yard/file/docs/GettingStarted.md
 [PDD]:              https://unlicense.org/#unlicensing-contributions

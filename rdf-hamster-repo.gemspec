@@ -10,6 +10,13 @@ Gem::Specification.new do |gem|
   gem.license            = 'Unlicense'
   gem.summary            = 'An RDF repository implementation using an in-memory Hamster Hash.'
   gem.description        = %(An in-memory implementation of RDF::Repository using an efficient, immutable, and thread-safe Hash.)
+  gem.metadata           = {
+    "documentation_uri" => "https://ruby-rdf.github.io/rdf-hamster-repo",
+    "bug_tracker_uri"   => "https://github.com/ruby-rdf/rdf-hamster-repo/issues",
+    "homepage_uri"      => "https://github.com/ruby-rdf/rdf-hamster-repo",
+    "mailing_list_uri"  => "https://lists.w3.org/Archives/Public/public-rdf-ruby/",
+    "source_code_uri"   => "https://github.com/ruby-rdf/rdf-hamster-repo",
+  }
 
   gem.authors            = ['Gregg Kellogg']
   gem.email              = 'public-rdf-ruby@w3.org'
