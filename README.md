@@ -1,7 +1,7 @@
 # RDF::HamsterRepo
 An RDF repository implementation using an in-memory Hamster Hash.
 
-[![Gem Version](https://badge.fury.io/rb/rdf-hamster-repo.png)](https://badge.fury.io/rb/rdf-hamster-repo)
+[![Gem Version](https://badge.fury.io/rb/rdf-hamster-repo.svg)](https://badge.fury.io/rb/rdf-hamster-repo)
 [![Build Status](https://github.com/ruby-rdf/rdf-hamster-repo/workflows/CI/badge.svg?branch=develop)](https://github.com/ruby-rdf/rdf-hamster-repo/actions?query=workflow%3ACI)
 [![Coverage Status](https://coveralls.io/repos/ruby-rdf/rdf-hamster-repo/badge.svg?branch=develop)](https://coveralls.io/github/ruby-rdf/rdf-hamster-repo?branch=develop)
 [![Gitter chat](https://badges.gitter.im/ruby-rdf/rdf.png)](https://gitter.im/ruby-rdf/rdf)
