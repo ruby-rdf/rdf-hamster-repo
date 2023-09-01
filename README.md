@@ -1,7 +1,7 @@
 # RDF::HamsterRepo
 An RDF repository implementation using an in-memory Hamster Hash.
 
-[![Gem Version](https://badge.fury.io/rb/rdf-hamster-repo.png)](https://badge.fury.io/rb/rdf-hamster-repo)
+[![Gem Version](https://badge.fury.io/rb/rdf-hamster-repo.svg)](https://badge.fury.io/rb/rdf-hamster-repo)
 [![Build Status](https://github.com/ruby-rdf/rdf-hamster-repo/workflows/CI/badge.svg?branch=develop)](https://github.com/ruby-rdf/rdf-hamster-repo/actions?query=workflow%3ACI)
 [![Coverage Status](https://coveralls.io/repos/ruby-rdf/rdf-hamster-repo/badge.svg?branch=develop)](https://coveralls.io/github/ruby-rdf/rdf-hamster-repo?branch=develop)
 [![Gitter chat](https://badges.gitter.im/ruby-rdf/rdf.png)](https://gitter.im/ruby-rdf/rdf)
@@ -14,12 +14,12 @@ An in-memory implementation of RDF::Repository using an efficient, immutable, an
 
     require 'rdf/hamster_repo'
     require 'rdf/nquads'
-    repo = RDF::HamsterRepo.load("https://ruby-rdf.github.com/rdf/etc/doap.nq")
+    repo = RDF::HamsterRepo.load("https://ruby-rdf.github.io/rdf/etc/doap.nq")
 
 ## Dependencies
 
-* [Ruby](https://ruby-lang.org/) (>= 2.6)
-* [RDF.rb][] (~> 3.2)
+* [Ruby](https://ruby-lang.org/) (>= 3.0)
+* [RDF.rb][] (~> 3.3)
 * [Hamster][] (~> 3.0)
 
 ## Mailing List
@@ -55,7 +55,7 @@ This repository uses [Git Flow](https://github.com/nvie/gitflow) to mange develo
 This is free and unencumbered public domain software. For more information,
 see <https://unlicense.org/> or the accompanying {file:UNLICENSE} file.
 
-[RDF.rb]:           https://ruby-rdf.github.com/
+[RDF.rb]:           https://ruby-rdf.github.io/
 [YARD]:             https://yardoc.org/
 [YARD-GS]:          https://rubydoc.info/docs/yard/file/docs/GettingStarted.md
 [PDD]:              https://unlicense.org/#unlicensing-contributions
