@@ -10,6 +10,6 @@ gem "ebnf",           github: "dryruby/ebnf",             branch: "develop"
 gem "sxp",            github: "dryruby/sxp",              branch: "develop"
 
 group :test do
-  gem 'simplecov', '~> 0.21',  platforms: :mri
+  gem 'simplecov', '~> 0.22',  platforms: :mri
   gem 'simplecov-lcov', '~> 0.8',  platforms: :mri
 end
