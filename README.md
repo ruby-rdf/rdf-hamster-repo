@@ -22,6 +22,10 @@ An in-memory implementation of RDF::Repository using an efficient, immutable, an
 * [RDF.rb][] (~> 3.3)
 * [Hamster][] (~> 3.0)
 
+## Change Log
+
+See [Release Notes on GitHub](https://github.com/ruby-rdf/rdf-hamster-repo/releases)
+
 ## Mailing List
 
 * <https://lists.w3.org/Archives/Public/public-rdf-ruby/>
